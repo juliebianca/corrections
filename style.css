@@ -1,0 +1,134 @@
+#green
+{
+    background-color: greenyellow;
+    
+    width: 80%;
+}
+
+
+#bleu
+{
+background-color: navy;
+
+width: 20%;
+
+}
+
+
+#bigbox
+{
+    height: 300px;
+    width: 40cm;
+
+
+}
+
+#ligne1
+{   height:10%;
+    display: flex;
+}
+
+#ligne2
+{
+    display: flex;
+    height: 40%;
+    width: 100%;
+}
+
+#red
+{
+    background-color:red;
+    width: 40%;
+}
+
+#minibloc
+{
+    
+    width: 66%;
+
+
+}
+
+
+
+
+#blackbox
+{
+  background-color: black;
+    height: 50%;
+    width: 100%;
+}
+
+
+#ligneo
+{
+    height:50%;
+    width: 100%;
+display: flex;
+
+
+}
+
+#orange
+{
+    background-color: orange;
+    width: 50%;
+}
+
+#grey
+{
+background-color: slategray;
+width: 50%;
+
+}
+
+#ligneb
+{
+ height: 50%;
+ width: 100%;
+ display: flex;
+
+}
+
+#yellow
+{
+   background-color: yellow;
+   width:34%;
+}
+
+#vertmoche
+{
+    background-color: olivedrab;
+    width: 33.33%;
+}
+#marron
+{
+    background-color: sienna;
+    width: 33.33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
