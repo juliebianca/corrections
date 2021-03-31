@@ -1,15 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+
 <head>
     <meta charset="UTF-8" />
     <title>Ma page</title>
-</head>
-<body>
-    <h1><img src="http://www.infowebmaster.fr/img/petite-image/bloc-note-stylo.png" alt="logo bloc-note" />Tous les petits trucs qui me seront utiles pour la suite</h1>
-    <p>le site de codecademy est <a href="https://www.codecademy.com/" title="codecademy">ici</a></p>
-    <p>Pour pleins de tutos sympas il y a aussi <a href="https://openclassrooms.com/" title="openclassrooms">openclassroom</a></p>
-    <p><a href="https://ubuntu.com/" title="ubuntu"> Si je veux devenir un crack sous Ubuntu il me faut la bonne adresse</a></p>
-
+    <style> 
+     table, th, td { border: 1px solid black;border-collapse: collapse;}       
+     tfoot { text-align: center;}
     
+    
+    </style>
+</head>
+
+
+<body>
+    <table>
+        <caption>Mon compte BNP</caption>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Libellé</th>
+                <th>Crédit</th>
+                <th>Débit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01/05/2016</td>
+                <td>Paye</td>
+                <td>1500</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>01/05/2016</td>
+                <td>Courses de la semaine</td>
+                <td>0 </td>
+                <td>152.3</td>
+            </tr>
+            <tr>
+                <td>04/05/2016</td>
+                <td>Mcdo</td>
+                <td>0</td>
+                <td>32.40</td>
+            </tr>
+            <tr>
+                <td>05/05/2015</td>
+                <td>Loyer</td>
+                <td>0</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td>05/05/2016</td>
+                <td>Internet</td>
+                <td>0</td>
+                <td>700</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Solde</td>
+                <td colspan="2">575.40</td>
+
+            </tr>
+
+        </tfoot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+
 </body>
+
 </html>
